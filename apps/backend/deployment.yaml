@@ -21,6 +21,10 @@ spec:
           env:
             - name: APP_MODULE
               value: "main:app"
+            - name: APP_MODULE
+              value: "main:app"
+            - name: WEB_CONCURRENCY
+              value: "4"
           resources:
             requests:
               cpu: "100m"
